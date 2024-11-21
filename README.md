@@ -14,6 +14,7 @@ This creates VMs with automatically with ubuntu cloud-init template and provisio
 4`terraform init` (this should pull in the Terraform Proxmox provider and configure the Terraform project)
 5. `terraform plan -out plan`
 6. `terraform apply`
+7. type `yes` for the creating the VM.
 
 
 
