@@ -37,7 +37,7 @@ Class: CASCB
 - Download Docker engine. https://docs.docker.com/engine/install/ubuntu/
 - Check the hello world container
 
-- docker pull **nvidia/cuda:12.6.0-base-ubuntu22.04**
+- docker pull **nvidia/cuda:12.4.0-base-ubuntu22.04**
 - docker run --name cudadeeplabcut --gpus all -dit bhargavsinhsolanki/cudadeeplabcut
 - docker exec -it cudacontainer /bin/bash
 - apt-get update
